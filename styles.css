@@ -1,0 +1,60 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer {
+    margin-top: 50px;
+    color: #fff;
+    background-color: #343a40; /* Dark background color for footer */
+}
+
+/* Page-specific styles */
+.jumbotron {
+    background-image: url('jumbotron-bg.jpg'); /* Replace with actual image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.card-deck .card {
+    margin-bottom: 20px;
+}
+
+.card-deck .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-deck .card-title {
+    font-size: 1.25rem;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #17a2b8; /* Updated primary button color */
+    border-color: #17a2b8;
+}
+
+.btn-primary:hover {
+    background-color: #138496; /* Darker shade for hover */
+    border-color: #117a8b;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5); /* Outline on focus */
+}
